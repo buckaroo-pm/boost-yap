@@ -1,0 +1,9 @@
+targets = [ "//:yap" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-hana"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-preprocessor"
+version = "branch=master"

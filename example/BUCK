@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'calc1',
+  srcs = [
+    'calc1.cpp',
+  ],
+  deps = [
+    '//:yap',
+  ],
+)
+
+cxx_binary(
+  name = 'hello-world',
+  srcs = [
+    'hello_world.cpp',
+  ],
+  deps = [
+    '//:yap',
+  ],
+)
